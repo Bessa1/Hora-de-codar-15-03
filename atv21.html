@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        //21 - Escreva um programa que leia as notas das duas avaliações normais e a nota da avaliação optativa.
+        // Calcular a média do semestre considerando que a prova optativa substitui a nota mais baixa entre as duas primeiras avaliações.
+        // Escrever a média e mensagens que indiquem se o aluno foi aprovado, reprovado ou está em exame, de acordo com as informações abaixo:
+
+
+
+        var n1 = parseInt(prompt("Digite os lados da sua prova N1"));
+        var n2 = parseInt(prompt("Digite os lados da sua prova N2"));
+        var sub = parseInt(prompt("Digite os lados da sua prova Substitutiva"));
+
+        //aprovado 6
+        //reprovado 3
+        //exame 3 e 6
+
+         var sub = 3;
+         var resultado = (n1 + n2);
+         var media = resultado / 2 ;
+         alert(media);
+
+                if(media < 6 + sub){
+                    alert("Infelizmente! Você foi reprovado");
+      
+                }
+                if (media >  6){
+                
+                     alert("Parabéns! você foi aprovado!");
+    
+                }
+                
+
+    </script>
+
+    </head>
+
+
+    <body>
